@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="@string/textview"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        tools:text="@string/spot_name_8"/>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="120dp"
+        android:contentDescription="@string/spot_name_8"
+        app:srcCompat="@mipmap/ic_kls"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        tools:text="The Kek Lok Si temple is located at Air Itam. It is a nice place to be visited and a wonderful tourist spot that has been a happening one for years. "/>
+
+</LinearLayout>

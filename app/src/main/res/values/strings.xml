@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Penang_tourism</string>
+    <string name="spot_name_1">Penang Hill</string>
+    <string name="spot_name_2">Penang Historical Musuem</string>
+    <string name="spot_name_3">Penang War Museum</string>
+    <string name="spot_name_4">Escape</string>
+    <string name="spot_name_5">Entopia</string>
+    <string name="spot_name_6">Batu Ferringhi Beach</string>
+    <string name="spot_name_7">The TOP Komtar</string>
+    <string name="spot_name_8">Kek Lok Si</string>
+    <string name="spot_details_6">The Batu Ferringhi Beach is a nice place to chill. People who are interested in water sports can have fun playing there with their friends and family.  "/>
+    </string>
+    <string name="enter_button">Enter</string>
+    <string name="spot_name_label">Place</string>
+    <string name="spot_details_label">Details</string>
+    <string name="spot_visited_label">Visited</string>
+    <string name="textview">TextView</string>
+
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="16dp"
+              android:layout_marginRight="16dp"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/spot_name_label"/>
+
+    <TextView
+        android:id="@+id/Spot_name"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:fontFamily="@string/spot_name_1"
+        android:hint="@string/spot_name_1"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:text="@string/spot_details_label"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/spot_visited"
+            android:layout_width="156dp"
+            android:layout_height="60dp"
+            android:text="@string/spot_visited_label"/>
+    </LinearLayout>
+
+</LinearLayout>

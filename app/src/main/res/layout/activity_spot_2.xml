@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+<TextView
+    android:id="@+id/textView4"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:text="@string/textview"
+    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+    tools:text="@string/spot_name_2"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="209dp"
+        android:contentDescription="@string/spot_name_2"
+        app:srcCompat="@mipmap/ic_pm"/>
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:inputType="textMultiLine"
+    tools:text="Penang Historical Museum will be a wonderful place for history lovers to visit.They can always have fun learning new things about the island there. It is a wonder experience to be experienced by everyone who pays a visit."/>
+
+</LinearLayout>
